@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nutrition">
+
+
+    <include layout="@layout/content_nutrition" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Beer: Stout Beer: A pint of Guinness beer contains 170 calories, 6 grams carbs, 0 grams protein, and 0 grams fat."
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:height="100dp"
+        android:fontFamily="serif"
+        android:text="Wine: Moscato: One glass of moscato contains 160 calories, 20 grams carbs (17 grams sugar), 0 grams protein, and 0 grams fat."
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:height="80dp"
+        android:fontFamily="serif"
+        android:text="Whiskey: Jim Beam Bourbon: There are 100 calories in 1 shot (1.5 fl. oz) of Jim Beam Bourbon Whiskey"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:height="100dp"
+        android:fontFamily="serif"
+        android:text="Rum: Bacardi: There are 96 calories in 1 shooter (1.5 fl. oz) of Bacardi Superior Rum (40% alc.). "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:height="100dp"
+        android:fontFamily="serif"
+        android:text="India Pale Ale Beer: One 12 oz bottle of Sierra Nevada IPA beer contains 175 calories, 14.1 grams carbs, 1.6 grams protein, and 0 grams fat."
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

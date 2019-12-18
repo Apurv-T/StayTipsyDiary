@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">projectAPP</string>
+    <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="enter_a_username_optional">Enter a username (optional)</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="or_connect_with">-or connect with-</string>
+    <string name="SEND">SEND</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id">388414658496398</string>
+    <string name="facebook_login_protocol_scheme">fb388414658496398</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+
+    <string name="tobacco">Tobacco</string>
+    <string name="cannabis">Cannabis</string>
+    <string name="alcohol">Alcohol</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string-array name="types">
+        <item>Beer</item>
+        <item>Vodka</item>
+        <item>Cocktail</item>
+        <item>Whiskey</item>
+        <item>Brandy</item>
+    </string-array>
+    <string name="title_activity_actvity_alcohol">actvity_alcohol</string>
+    <string name="title_activity_tobacco">activity_tobacco</string>
+    <string name="title_activity_cannabis">activity_cannabis</string>
+    <string name="title_activity_rough">rough</string>
+    <string name="title_activity_prompt_intake">prompt_intake</string>
+    <string name="title_activity_nutrition">Nutrition</string>
+    <string name="title_activity_add_drink">add_drink</string>
+    <string name="title_activity_add_tobacco">add_tobacco</string>
+    <string name="title_activity_delete_prompt">delete_prompt</string>
+    <string name="please_enter_your_registered_email_below">Please enter your Registered Email below:</string>
+    <string name="title_activity_add_cannabis">add_cannabis</string>
+
+</resources>
+

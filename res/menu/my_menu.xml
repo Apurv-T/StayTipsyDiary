@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/itemProfile"
+
+            android:title="My Profile"
+            app:showAsAction="never">
+
+        </item>
+
+        <item
+
+            android:id="@+id/item1"
+            android:title="Track"
+            app:showAsAction="never"
+            >
+
+            <menu>
+                <item android:id="@+id/subitem1"
+                    android:title="Day"/>
+                <item android:id="@+id/subitem2"
+                    android:title="Week"/>
+                <item android:id="@+id/subitem3"
+                    android:title="Month"/>
+
+            </menu>
+        </item>
+
+
+        <item android:id="@+id/item2"
+
+            android:title="Intake Limits"
+            app:showAsAction="never">
+
+        </item>
+    <item android:id="@+id/item4"
+
+        android:title="Nutrition"
+        app:showAsAction="never">
+
+    </item>
+
+
+
+        <item android:id="@+id/item3"
+
+            android:title="Logout"
+            app:showAsAction="never" />
+
+
+
+
+
+
+</menu>

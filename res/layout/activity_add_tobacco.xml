@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_tobacco">
+
+
+
+    <include layout="@layout/content_add_tobacco" />
+    <TextView
+        android:id="@+id/textView_consumption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="61dp"
+        android:text="Lets add your smoke!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+        android:id="@+id/Number_picker_add"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="84dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="316dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_add" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="123dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="24dp"
+        android:text="Approximate mg"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/Number_picker_add"
+        app:layout_constraintTop_toBottomOf="@+id/editText_add"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <EditText
+        android:id="@+id/editText_add"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+
+        android:ems="10"
+        android:hint="Name Your Drink"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Number_picker_add"
+        app:layout_constraintEnd_toEndOf="@+id/include3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_consumption"
+        app:layout_constraintVertical_bias="0.537" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
