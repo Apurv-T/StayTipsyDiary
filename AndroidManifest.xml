@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".add_cannabis"
+            android:label="@string/title_activity_add_cannabis"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".delete_prompt"
+            android:label="@string/title_activity_delete_prompt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".add_tobacco"
+            android:label="@string/title_activity_add_tobacco"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".add_drink"
+            android:label="@string/title_activity_add_drink"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nutrition"
+            android:label="@string/title_activity_nutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prompt_intake"
+            android:label="@string/title_activity_prompt_intake"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_cannabis"
+            android:label="@string/title_activity_cannabis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_tobacco"
+            android:label="@string/title_activity_tobacco"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actvity_alcohol"
+            android:label="@string/title_activity_actvity_alcohol"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".PasswordValidator" />
+        <activity android:name=".RegistrationValidator" />
+        <activity android:name=".EmailLogin" />
+        <activity android:name=".SendPassword" />
+        <activity
+            android:name=".MainPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Status_bar"
+            android:label="status_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user_account"
+            android:label="user_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Three_button"
+            android:label="three_button"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Intake_activity"
+            android:label="intake_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".track_monthly"
+            android:label="track_monthly"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".track_weekly"
+            android:label="track_weekly"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".track_daily"
+            android:label="track_daily"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>
