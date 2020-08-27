@@ -24,8 +24,8 @@ After discussing and brainstorming ideas, we started with making the user stores
   
 After passing acceptance test over the weeks, we started working on the application while practicing Extreme Programming. We were able to transform the user stories into these layouts:
 <p align="center">
-    <img src="https://i.imgur.com/pNzN7T5.png" width="420" height="220">
-  <img src="https://i.imgur.com/iBo6TGF.png" width="420" height="220">
+    <img src="https://i.imgur.com/pNzN7T5.png" width="500" height="320">
+  <img src="https://i.imgur.com/iBo6TGF.png" width="500" height="320">
   
 
 
