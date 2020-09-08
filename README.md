@@ -33,7 +33,7 @@ After passing acceptance test over the weeks, we started working on the applicat
 The application was completed in an Extreme Programming environment while practicing peer programming. This was our first time working in peers and I found it very helpful, as everybody took part in the programming and was aware of the project status and deadlines.
 
 ### Programming Languages:Java, JSON
-### IDE: Android Stuido, VS Code
+### IDE: Android Studio, VS Code
 ### Version Control: Git, GitLab
 ### Cloud Service: Firebase
 ### UI/Wireframe Tools: Sketch, Balsamiq, Canva
